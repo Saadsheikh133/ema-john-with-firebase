@@ -1,9 +1,23 @@
 .cart{
     background-color: rgba(255, 153, 0, 0.3);
-    padding: 25px;
+    padding: 15px;
     position: sticky;
     top: 0;
+    border-radius: 8px;
 }
 .cart h6 {
     font-size: 17px;
+}
+
+.clear-cart {
+    width: 90%;
+    height: 46px;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #FF3030;
+    border-radius: 4px;
+    color: #fff;
 }
